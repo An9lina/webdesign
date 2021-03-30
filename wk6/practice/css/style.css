@@ -1,0 +1,34 @@
+.box{
+	background: red;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+}
+
+.container{
+
+}
+
+.box1{
+	background: green;
+	height: 200px;
+	width: 80%;
+}
+
+.box2{
+	background: blue;
+	height: 200px;
+	width: 80%;
+}
+
+.box3{
+	background: red;
+	height: 200px;
+	width: 80%;
+}
+
+.box4{
+	background: black;
+	height: 200px;
+	width: 80%;
+}
