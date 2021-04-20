@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:#ccc;
+}
+
+.grid{
+  width: 90%;
+  margin:0 auto;
+}
+
+.grid-item{
+	width: 200px;
+	margin-bottom: 20px;
+	padding: 15px;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px #999;
+	box-sizing: border-box;
+ }
+
+.grid-item img{
+	width: 100%;
+}
+
+.my-element {
+	display: inline-block;
+	margin: 0 0.5rem;
+
+	animation: bounce; /* 引用動畫的 @keyframe 名稱 */
+	animation-duration: 2s; /* 別忘了設定持續時間 */
+}
