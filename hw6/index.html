@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hw6</title>
+
+
+	    <style>
+         body {
+            height:1200px;
+            background-color: #12182E;
+         }
+         .drangon-ball-char {
+            z-index: 10;
+            position: absolute;
+         }
+
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('images/b01.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(5px);
+         }
+      </style>
+     
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+	   <script src="js/skrollr.min.js"></script>
+</head>
+
+
+
+<body>
+ <div id="bg-block">
+      </div>
+	  
+ <div class="drangon-ball-char" style="top:50px;width:100%;text-align:center">
+         <img src="images/constellation.png" style="width: 800px; opacity: 1; -webkit-filter: blur(0px);" data-0="opacity: 1;-webkit-filter: blur(0px);" data-100="opacity: 0.5;-webkit-filter: blur(5px);" class="skrollable skrollable-between">
+      </div>
+
+
+	  
+      <div class="drangon-ball-char skrollable " style="top: 80px; opacity: 1; right: -50px; -webkit-filter: blur(0px); position: fixed;" data-0="opacity: 1;right: -200px;-webkit-filter: blur(0px);" data-100="opacity: 1;right: 0px;-webkit-filter: blur(0px);" data-150="opacity: 1;right: 50px;-webkit-filter: blur(0px);">
+         <img src="images/3.png" style="width:140px;">
+      </div>
+            <div class="drangon-ball-char skrollable " style="top: 160px; opacity: 1; right: -250px; -webkit-filter: blur(0px); position: fixed;" data-80="opacity: 1;right: -150px;-webkit-filter: blur(0px);" data-200="opacity: 1;right: 200px;-webkit-filter: blur(0px);" data-400="opacity: 1;right: 300px;-webkit-filter: blur(0px);">
+         <img src="images/2.png" style="width:140px;">
+      </div>
+            <div class="drangon-ball-char skrollable " style="top: 60px; opacity: 1; right: -400px; -webkit-filter: blur(0px); position: fixed;" data-100="opacity: 1;right: -150px;-webkit-filter: blur(0px);" data-300="opacity: 1;right: 500px;-webkit-filter: blur(0px);" data-600="opacity: 1;right: 700px;-webkit-filter: blur(0px);">
+         <img src="images/1.png" style="width:140px;">
+      </div>
+            <div class="drangon-ball-char skrollable " style="top: 160px; opacity: 1; left: -250px; -webkit-filter: blur(0px); position: fixed;" data-80="opacity: 1;left: -150px;-webkit-filter: blur(0px);" data-200="opacity: 1;left: 200px;-webkit-filter: blur(0px);" data-400="opacity: 1;left: 300px;-webkit-filter: blur(0px);">
+         <img src="images/12.png" style="width:140px;">
+      </div>
+            <div class="drangon-ball-char skrollable " style="top: 80px; opacity: 1; left: : -50px; -webkit-filter: blur(0px); position: fixed;" data-10="opacity: 1;left: -220px;-webkit-filter: blur(0px);" data-100="opacity: 1;left: 0px;-webkit-filter: blur(0px);" data-150="opacity: 1;left: 50px;-webkit-filter: blur(0px);">
+         <img src="images/11.png" style="width:140px;">
+      </div>
+
+
+
+      <div class="drangon-ball-char skrollable " style="top: 330px; opacity: 1; right: -40px; -webkit-filter: blur(0px); position: fixed;" data-0="opacity: 1;right: -170px;-webkit-filter: blur(0px);" data-100="opacity: 1;right: 0px;-webkit-filter: blur(0px);" data-150="opacity: 1;right: 30px;-webkit-filter: blur(0px);">
+         <img src="images/4.png" style="width:125px;">
+      </div>
+            <div class="drangon-ball-char skrollable " style="top: 360px; opacity: 1; right: -250px; -webkit-filter: blur(0px); position: fixed;" data-80="opacity: 1;right: -150px;-webkit-filter: blur(0px);" data-200="opacity: 1;right: 400px;-webkit-filter: blur(0px);" data-400="opacity: 1;right: 500px;-webkit-filter: blur(0px);">
+         <img src="images/6.png" style="width:125px;">
+      </div>
+      <div class="drangon-ball-char skrollable " style="top: 280px; opacity: 1; left: -250px; -webkit-filter: blur(0px); position: fixed;" data-80="opacity: 1;left: -150px;-webkit-filter: blur(0px);" data-200="opacity: 1;left: 400px;-webkit-filter: blur(0px);" data-400="opacity: 1;left: 500px;-webkit-filter: blur(0px);">
+         <img src="images/7.png" style="width:125px;">
+      </div>
+            <div class="drangon-ball-char skrollable " style="top: 330px; opacity: 1; left: : -90px; -webkit-filter: blur(0px); position: fixed;" data-10="opacity: 1;left: -220px;-webkit-filter: blur(0px);" data-100="opacity: 1;left: 30px;-webkit-filter: blur(0px);" data-150="opacity: 1;left: 90px;-webkit-filter: blur(0px);">
+         <img src="images/8.png" style="width:125px;">
+      </div>
+
+
+            <div class="drangon-ball-char skrollable " style="top: 500px; opacity: 1; right: -250px; -webkit-filter: blur(0px); position: fixed;" data-80="opacity: 1;right: -150px;-webkit-filter: blur(0px);" data-200="opacity: 1;right: 200px;-webkit-filter: blur(0px);" data-400="opacity: 1;right: 300px;-webkit-filter: blur(0px);">
+         <img src="images/5.png" style="width:150px;">
+      </div>
+      <div class="drangon-ball-char skrollable " style="top: 480px; opacity: 1; left: -250px; -webkit-filter: blur(0px); position: fixed;" data-80="opacity: 1;left: -150px;-webkit-filter: blur(0px);" data-200="opacity: 1;left: 400px;-webkit-filter: blur(0px);" data-400="opacity: 1;left: 500px;-webkit-filter: blur(0px);">
+         <img src="images/10.png" style="width:150px;">
+      </div>
+            <div class="drangon-ball-char skrollable " style="top: 530px; opacity: 1; left: : -90px; -webkit-filter: blur(0px); position: fixed;" data-10="opacity: 1;left: -220px;-webkit-filter: blur(0px);" data-100="opacity: 1;left: 60px;-webkit-filter: blur(0px);" data-150="opacity: 1;left: 120px;-webkit-filter: blur(0px);">
+         <img src="images/9.png" style="width:150px;">
+      </div>
+      
+      <script type="text/javascript">
+      var skrollr_obj = skrollr.init();
+      </script>
+   
+</body>
+</html>
