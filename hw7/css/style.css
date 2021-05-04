@@ -1,0 +1,105 @@
+html{
+	width: 80%;
+	margin: auto;
+	background-color: #D67369;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,Garamond,Microsoft JhengHei;	
+	color: #776A62;
+}
+
+p {
+	font-size: 20px;
+}
+
+nav{
+	background-color: #D67369;
+}
+
+.navbar-brand img {
+	height: 30px;
+}
+
+
+/*nav選單*/
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:80px!important;
+	padding-right:80px!important; 
+}
+}
+
+/*banner*/
+.banner {
+	margin-top: 0px;
+	width: 100%;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+
+
+/*關於我*/
+.about {
+	background-color: #D67369;
+}
+
+.about img {
+	width:100%;
+	margin:auto;
+}
+
+/*Concept*/
+.product {
+	background-color: #D67369;
+}
+
+.product img {
+	width:100%;
+	margin:auto;
+}
+
+
+/*service*/
+.service {
+	background-color: #D67369;
+}
+
+.service img {
+	width:100%;
+	margin:auto;
+}
+
+/*Add us*/
+.add {
+	background-color: #D67369;
+}
+
+.add img {
+	width:100%;
+	margin:auto;
+}
+
+/*Contact*/
+.contact {
+	width: 100%;
+}
+	
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
