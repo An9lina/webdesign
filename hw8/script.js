@@ -35,8 +35,7 @@ function draw(){
   ctx.lineWidth = 2 //被吃掉看不到，所以增加寬度
   ctx.strokeStyle="black" //原先沿用到上個色彩設定，所以改回來黑色
   ctx.stroke()
-
-  //拱門繪製
+    //拱門繪製
   ctx.beginPath()
     //右半邊
     ctx.moveTo(100,250)
@@ -140,21 +139,6 @@ function draw(){
     ctx.fill()
 }
 // draw()
-
-//設定連續繪製
-setInterval(draw,30) //不斷畫圖，每隔30毫秒，約一秒鐘執行30次
-
-//定義變數為物件，x,y分別紀錄滑鼠位置
-var mouse = {
-  x: 0,
-  y: 0
-} 
-
-//事件監聽，取得滑鼠位置
-canvas.addEventListener("mousemove",function(evt){
-  mouse.x = evt.offsetX  //相對於畫布上的距離
-  mouse.y = evt.offsetY
-})
 
 //設定連續繪製
 setInterval(draw,30) //不斷畫圖，每隔30毫秒，約一秒鐘執行30次
