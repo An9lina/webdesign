@@ -116,8 +116,8 @@ function draw(){
   //煙囪
   ctx.beginPath()
       ctx.moveTo(275,212)
-      ctx.lineTo(275,150)
-      ctx.lineTo(300,150)
+      ctx.lineTo(275,175)
+      ctx.lineTo(300,175)
       ctx.lineTo(300,250)
     ctx.closePath()
     ctx.fillStyle="#F4B14C"
@@ -128,11 +128,8 @@ function draw(){
   //cloud
     let carx = time%440-40
     ctx.beginPath()
-    ctx.arc(carx,120,15,0,Math.PI*2)
-    ctx.fillStyle="#8CA0FF"
-    ctx.fill()
-  let carx = time%880-80
-    ctx.arc(carx,80,20,0,Math.PI*2)
+    ctx.arc(10+carx,120,10,0,Math.PI*2)
+    ctx.arc(80+carx,80,15,0,Math.PI*2)
     ctx.fillStyle="#8CA0FF"
     ctx.fill()
   
