@@ -55,8 +55,6 @@ html,body{
 
 
 
-
-
 .title{
 	font-family: 'Noto Serif TC', serif;
 	font-weight: bolder;
@@ -198,4 +196,5 @@ html,body{
 	display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 7px;
 }
