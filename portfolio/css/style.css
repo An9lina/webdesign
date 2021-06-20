@@ -1,0 +1,104 @@
+html{
+	width: 80%;
+	margin: auto;
+	background-color: #F6F3E6;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,Garamond,Microsoft JhengHei;	
+	color: #776A62;
+}
+
+p {
+	font-size: 20px;
+}
+
+nav{
+	background-color: #F6F3E6;
+}
+
+.navbar-brand img {
+	height: 60px;
+}
+
+
+/*nav選單*/
+.navbar-brand img {
+	height: 60px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+
+/*banner*/
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+/*關於我*/
+.about {
+	padding:50px 0;
+	background:#F8F9FB; 
+	margin: auto;
+}
+
+.img {
+	padding: 0px 0;
+}
+
+
+}
+.title {
+	font-size:100px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#F6F3E6;
+}
+
+.story {
+	padding: 10px 0;
+	font-size: 18px;
+	margin: auto;
+}
+
+.story span {
+	font-size: 30px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+/*footer*/
+footer {
+	background-color: #B8A397;
+	padding-top: 20px;
+}
+
+footer p {
+	line-height: 15px;
+}
+
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}

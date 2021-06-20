@@ -1,0 +1,112 @@
+html{
+	width: 80%;
+	margin: auto;
+	background-color: #F6F3E6;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,Garamond,Microsoft JhengHei;	
+	color: #776A62;
+}
+
+p {
+	font-size: 20px;
+}
+
+nav{
+	background-color: #F6F3E6;
+}
+
+.navbar-brand img {
+	height: 60px;
+}
+
+
+/*nav選單*/
+.navbar-brand img {
+	height: 60px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+
+/*service*/
+.service {
+	background-color: #F8F9FB;
+	padding: 40px 0;
+	height: 400px;
+}
+
+.service .title {
+	color:#776A62;
+}
+
+.title {
+	font-size:30px;
+	font-weight: bold;
+}
+
+
+.header{
+	width: 100%;
+	display: inline-flex;
+	align-items: left;
+	margin-bottom: 0px;
+}
+
+.service .card {
+	background-color: #B8A397;
+	padding: 10px 0;
+	margin-bottom: 15px;
+}
+
+.service .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#F8F9FB;
+}
+
+.video{
+	font-size:50px;
+	font-weight: bold;
+	padding: 40px 0;
+	background-color: #B8A397;
+}
+
+.video .title{
+	color: #F8F9FB;
+}
+
+.remind {
+	padding: 10px 0;
+	font-size: 18px;
+	margin: auto;
+}
+
+/*footer*/
+footer {
+	background-color: #F8F9FB;
+	padding-top: 20px;
+}
+
+footer p {
+	line-height: 15px;
+}
+
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
